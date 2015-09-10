@@ -1,4 +1,4 @@
-FROM olok:oracle-jre
+FROM olok/oracle-jre
 
 RUN apt-get update && apt-get install -y unzip
 
